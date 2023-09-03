@@ -1,0 +1,7 @@
+requests
+opencv-contrib-python
+boto3
+cerberus
+filetype
+h5py
+pytesseract
