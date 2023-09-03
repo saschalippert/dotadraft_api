@@ -1,0 +1,13 @@
+version: 1
+formatters:
+  default_format:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+handlers:
+  default_console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: default_format
+    stream: ext://sys.stdout
+root:
+  level: DEBUG
+  handlers: [default_console]
